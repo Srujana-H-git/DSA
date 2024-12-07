@@ -431,8 +431,7 @@ int main()
                 printf("\n Display all");
                 displayall(first);
                 break;
-    case 7: 
-                break;
+    case 7:     break;
 
     }
       
