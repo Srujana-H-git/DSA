@@ -23,7 +23,7 @@ struct SGPA *getnode() {
 
 void Readdata(struct SGPA *nw) {
     printf("Enter the Roll No, Name, and SGPA: \n");
-    scanf("%d %s %f", &nw->rollno, nw->name, &nw->SGPA);
+    scanf("%d %s %f",&nw->rollno, nw->name, &nw->SGPA);
 }
 
 void displaydata(struct SGPA *nw) {
@@ -106,7 +106,7 @@ int main() {
     struct SGPA *first1 = NULL, *first2 = NULL, *first3 = NULL;
 
     printf("Enter number of nodes to create a list: ");
-    scanf("%d", &N);
+    scanf("%d",&N);
     first1 = createlistRight(N);
 
     do {
