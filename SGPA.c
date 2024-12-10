@@ -53,7 +53,6 @@ struct SGPA *Insertfront(struct SGPA *first) {
     nw->next = first;
     return nw;
 }
-
 void displayall(struct SGPA *first) {
     struct SGPA *curr = first;
     if (curr == NULL) {
@@ -65,7 +64,6 @@ void displayall(struct SGPA *first) {
         }
     }
 }
-
 void SGPAabove9(struct SGPA *first) {
     struct SGPA *curr = first;
     while (curr != NULL) {
