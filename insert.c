@@ -25,7 +25,8 @@ void display(node* p)
 //printf("Name: %s\n",p->name);
 }
 
-void displayAll(node* p){
+void displayAll(node* p)
+{
     node* f=p;
     do
     {
@@ -35,14 +36,15 @@ void displayAll(node* p){
 
 }
 
-node* createR(){
+node* createR()
+{
     node* nw,*f,*l;
     int n,i;
     f=nw=l=NULL;
     printf("Enter the number of nodes: ");
     scanf("%d",&n);
     for (i = 0; i < n; i++)
-    {
+ {
         
         nw=create_node();
         readInfo(nw);
