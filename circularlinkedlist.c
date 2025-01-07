@@ -9,16 +9,19 @@ struct student {
 };
 typedef struct student *Node;
 
-Node getnode() {
+Node getnode() 
+{
     return (Node)malloc(sizeof(struct student));
 }
 
-void readinfo(Node p) {
+void readinfo(Node p)
+{
     printf("Enter details (Roll number and Name): ");
     scanf("%d %s", &p->rollno, p->name);
 }
 
-void displayinfo(Node p) {
+void displayinfo(Node p) 
+{
     printf("%d %s\n", p->rollno, p->name);
 }
 
@@ -44,7 +47,8 @@ Node createright(int n) {
 }
 
 // Create list to the left (circular linked list)
-Node createLEFT(int n) {
+Node createLEFT(int n) 
+{
     int i;
     Node first = NULL, nw, last = NULL;
 
