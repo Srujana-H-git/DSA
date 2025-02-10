@@ -1,2 +1,2 @@
-## Data Structures 
-  # Brute forced and optimzed codes for Data structures and Algorithms
+# Data Structures 
+  ## Brute forced and optimzed codes for Data structures and Algorithms
