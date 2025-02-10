@@ -1,2 +1,2 @@
 ## Data Structures 
-  brute forced and optimzed codes for dsa
+  #Brute forced and optimzed codes for dsa
